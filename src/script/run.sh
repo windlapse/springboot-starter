@@ -1,0 +1,1 @@
+java -classpath ./config/:./lib/* liangwenhan.web.Application

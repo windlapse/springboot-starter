@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+<classPathEntry location="E:\\maven_res\\.m2\mysql\\mysql-connector-java\\5.1.6\\mysql-connector-java-5.1.6.jar" />
+  <context id="context1">
+  	
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/plan"  password="adwrwa" userId="root" />
+    <javaModelGenerator targetPackage="liangwenhan.web.entity" targetProject="pa-pay-admin/src/main/java" />
+    <sqlMapGenerator targetPackage="liangwenhan.web.dao" targetProject="pa-pay-admin/src/main/java" />
+    <javaClientGenerator targetPackage="liangwenhan.web.dao" targetProject="pa-pay-admin/src/main/java" type="XMLMAPPER" />
+     <table schema="plan" tableName="ability" domainObjectName="Ability" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+    </table> 
+    
+    <table schema="plan" tableName="action" domainObjectName="Action" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+    <table schema="plan" tableName="action_consequence" domainObjectName="ActionConsequence" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+    <table schema="plan" tableName="action_transaction" domainObjectName="ActionTransaction" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+    <table schema="plan" tableName="user" domainObjectName="User" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+    
+  </context>
+</generatorConfiguration>
